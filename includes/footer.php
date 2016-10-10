@@ -7,7 +7,7 @@
 			<a href="">Press Kit</a>
 		</div>
 		<div class="col-4">
-			<a href="mailto:admin@mediapreview.net" target="#hero">To Top</a>
+			<a class="js-to-top">To Top</a>
 		</div>
 	</div>
 </footer>
