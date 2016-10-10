@@ -1,0 +1,29 @@
+// =================================================================
+// 	Mediapreview
+// 	Header
+// =================================================================
+
+header {
+	position: absolute;
+	z-index: 100;
+
+	img {
+		width: 100px;
+		margin-top: 25px;
+	}
+
+	@include mq("small", "max-width") {
+		width: 100%;
+
+		.col-3 {
+			width: 100%;
+
+		}
+
+		.col-3 img {
+			display: block;
+			margin: 25px auto;
+			float: none;
+		}
+	}
+}
